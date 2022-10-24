@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+h3 {
+    color: blue;
+    font-size: 25px;
+   }
+
+a {
+    font-size: 20px;
+ }
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
+    border: 2px solid #aaa;
+    padding: 16px;
+    text-align: center;
+    background-color: aqua;
+
+}
+.notUser {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
+    border: 2px solid #aaa;
+    padding: 16px;
+    text-align: center;
+    background-color: rgb(250, 224, 94);
+
+}
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
+    border: 2px solid #aaa;
+    padding: 16px;
+    background-color: #78fa65;
+    text-align: center;
+
+}
+.loginBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.loginBody input{
+    margin: 6px 0;
+    color: blue;
+    border-radius: 3px;
+}
+
+.loginButtons input{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #7ffff4;
+    border-radius: 3px;
+    margin: 3px 0;
+    padding: 3px;
+    color: blue;
+}
+
+
